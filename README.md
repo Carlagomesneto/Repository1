@@ -89,3 +89,15 @@ repositório remoto **forçadamente**.
 git push --force
 ~~~
 
+
+### Tags
+
+~~~bash
+git tag <tag> <referencia>
+~~~
+
+Utilizar o comando `tag` para adicionar marcos (' milestones') a commits ou outras referências no histórico do Git. Se você não especificar a referência, o Git vai atribuir a tag ao commit apontado
+por **HEAD**
+
+
+Você deve fazer o push das tags 
